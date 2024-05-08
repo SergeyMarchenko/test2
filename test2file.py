@@ -1,16 +1,15 @@
-import numpy     as np
 import streamlit as st
+from f1 import f1
 
-st.write("Coucou")
-b = st.button("Press", key = "b")
-if b:
+st.write("Coucou, here is a test app!")
+
+b1 = st.button("Press", key = "b1")
+if b1:
     mm = st.text_area('', "pressed!")
-    
-    if np.random.randint(0, 100)>50:
-        st.balloons()
-    else:
-        st.snow()
+    st.balloons()
+   
 
-st.write('look, there is a new line in the code!')
-
-st.write('a second additional line of code')
+b2 = st.button("Press", key = "b2")
+if b2:
+    message = f1()
+    st.write(message)
