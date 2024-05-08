@@ -12,3 +12,5 @@ if b:
         st.snow()
 
 st.write('look, there is a new line in the code!')
+
+st.write('a second additional line of code')
