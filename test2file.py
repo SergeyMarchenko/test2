@@ -10,3 +10,5 @@ if b:
         st.balloons()
     else:
         st.snow()
+
+st.write('look, there is a new line in the code!')
