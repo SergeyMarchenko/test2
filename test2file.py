@@ -1,6 +1,7 @@
 import streamlit as st
 # import numpy     as np
 from f1 import f1
+from   sqlalchemy import create_engine, inspect
 
 st.write("Coucou, here is a test app!")
 
