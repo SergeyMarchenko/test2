@@ -12,6 +12,7 @@ from   sqlalchemy import create_engine, inspect
 @st.cache_data(show_spinner="browsing available tables...")
 def get_tables(url):
     st.write("coucou")
+    st.write("engine NOT created yet")
     engine = create_engine(url)
     st.write("engine created")
     
