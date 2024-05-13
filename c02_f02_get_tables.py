@@ -13,6 +13,8 @@ from   sqlalchemy import create_engine, inspect
 def get_tables(url):
     st.write("coucou")
     engine = create_engine(url)
+    st.write("engine created")
+    
     inspection   = inspect(engine)
     table_names  = inspection.get_table_names("viuhydro_wx_data_v2")
     table_names = [x for x in table_names if x.startswith("raw")]
