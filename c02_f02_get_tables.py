@@ -11,7 +11,7 @@ from   sqlalchemy import create_engine, inspect
 # table_names = get_tables(url)
 @st.cache_data(show_spinner="browsing available tables...")
 def get_tables(url):
-    
+    st.write("coucou")
     engine = create_engine(url)
     inspection   = inspect(engine)
     table_names  = inspection.get_table_names("viuhydro_wx_data_v2")
