@@ -1,9 +1,9 @@
 import streamlit as st
-
+import numpy     as np
 
 # import plotly.graph_objects as go    
 # import pandas               as pd
-# import numpy as np
+
 
 st.write("Welcome to the new app!")
 x = np.arange(0, 11, 1)
