@@ -13,7 +13,7 @@ x = np.arange(0, 11, 1)
 st.write(x)
 
 
-# st.write(st.secrets.config_username)
+st.write(st.secrets["config_username"])
 
 
 st.write("deleted code using functions from sqlalchemy")
