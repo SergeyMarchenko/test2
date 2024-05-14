@@ -17,7 +17,7 @@ st.write(url)
 
 st.write("added import of functions from sqlalchemy")
 st.write("added code using functions from sqlalchemy")
-engine = create_engine(url)
+# engine = create_engine(url)
 # inspection   = inspect(engine)
 # table_names  = inspection.get_table_names("viuhydro_wx_data_v2")
 # table_names = [x for x in table_names if x.startswith("raw")]
