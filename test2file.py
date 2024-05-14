@@ -1,4 +1,4 @@
-# import streamlit as st
+import streamlit as st
 
 
 # import plotly.graph_objects as go    
@@ -6,7 +6,8 @@
 # import numpy as np
 
 st.write("Welcome to the new app!")
-# x = np.arange(0, 11, 1)
+x = np.arange(0, 11, 1)
+st.write(x)
 
 # rng = np.random.default_rng()
 # y = rng.integers(0, high=10, size=(1,10))
