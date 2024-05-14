@@ -14,6 +14,8 @@ st.write(x)
 
 url = "mysql+mysqlconnector://viuhydro_shiny:.rt_BKD_SB*Q@192.99.62.147:3306/viuhydro_wx_data_v2"
 st.write(url)
+
+st.write("added import of functions from sqlalchemy")
 # engine = create_engine(url)
 # inspection   = inspect(engine)
 # table_names  = inspection.get_table_names("viuhydro_wx_data_v2")
