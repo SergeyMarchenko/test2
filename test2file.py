@@ -16,6 +16,10 @@ st.write(x)
 
 st.write(st.secrets["config_username"])
 
+# conn = st.connection('mysql', type = 'sql')
+# df = conn.query('SELECT * from raw_steph1_CSci_test;', ttl=600)
+# st.write(df)
+# st.dataframe(df)
 
 # st.write("deleted code using functions from sqlalchemy")
 # engine = create_engine(url)
