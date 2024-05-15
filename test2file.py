@@ -16,7 +16,7 @@ st.write(x)
 
 st.write(st.secrets.connections.mysql)
 
-# conn = st.connection('mysql', type = 'sql')
+conn = st.connection('mysql', type = 'sql')
 # df = conn.query('SELECT * from raw_steph1_CSci_test;', ttl=600)
 # st.write(df)
 # st.dataframe(df)
