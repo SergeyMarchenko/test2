@@ -1,2 +1,2 @@
 mysqlclien
-sqlalchemy==2.0.25
+sqlalchemy
