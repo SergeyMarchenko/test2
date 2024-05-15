@@ -14,7 +14,7 @@ x = np.arange(0, 11, 1)
 st.write(x)
 
 
-st.write(st.secrets["config_username"])
+st.write(st.secrets.connections.mysql)
 
 # conn = st.connection('mysql', type = 'sql')
 # df = conn.query('SELECT * from raw_steph1_CSci_test;', ttl=600)
